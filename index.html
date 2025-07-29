@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">
+        <img src="./assets/robot face.png" alt="logo" />
+        <h1>ImageGenerator</h1>
+      </div>
+      <p>Turn Your imagination into images</p>
+    </div>
+    <br><br>
+    <div class="bodyContainer">
+    <div class="mainBody">
+      <form>
+        <label>Describe Your Image</label>
+        <br>
+        <input id="prompt" type="text" placeholder="Enter Prompt" />
+        <p class="error"></p>
+        <br>
+        <button id="genBtn">Generate</button>
+      </form>
+      <div class="imgPlaceholder"></div>
+    </div>
+    </div>
+    <div class="pastGens">
+      <h3>Recent Creations</h3>
+      <div id="recents"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
