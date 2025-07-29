@@ -111,3 +111,30 @@ body{
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+@media (max-width: 600px){
+    .mainBody{
+        flex-direction: column;
+    }
+
+    .imgPlaceholder{
+        width: 100%;
+    }
+
+    .genImg{
+        width: 100%;
+    }
+
+    .pastGenImg{
+        height: 8vh;
+    }
+
+    .title h1{
+        font-size: 5vh;
+    }
+
+    .title img{
+    width: 8vw;
+    height: 7vh;
+    }
+}
